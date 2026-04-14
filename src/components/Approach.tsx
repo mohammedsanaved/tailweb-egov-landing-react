@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const tabs = [
   'Public Health',
@@ -17,7 +17,8 @@ const Approach = () => {
             <div className='approaches-sidebar'>
               <div className='sidebar-content'>
                 <h2 className='approach-h2'>
-                  Big problems need<br />
+                  Big problems need
+                  <br />
                   <span className='approach-bold'>bold approaches</span>
                 </h2>
                 <div className='sidebar-btns'>
